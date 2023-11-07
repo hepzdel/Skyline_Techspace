@@ -1,0 +1,291 @@
+body{
+
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container-form{
+
+
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+input[type=text]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border:1px solid gray;
+    text-indent:9%;
+
+
+}
+
+
+
+input[type=text]focus{
+
+   
+    border-radius: 15px;
+    border:1px solid lightblue;
+    outline: none;
+
+
+}
+
+
+/* here is the placeholder  design */
+
+::placeholder{
+
+    font-size: 18px;
+    color: lightblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
+}
+
+.user{
+
+    position: absolute;
+    top: 18%;
+    left: 24%;
+    font-size: 20px;
+    padding: 2px;
+  
+     
+    
+}
+
+
+/* here is my email design */
+
+
+input[type=email]{
+
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border:1px solid gray;
+    text-indent: 9%;
+
+
+}
+
+.email-form{
+
+    position: absolute;
+    top: 19%;
+    left: 24%;
+    font-size: 20px;
+    padding: 3px;
+}
+
+
+.email{
+
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.form-user{
+
+    position: relative;
+}
+
+
+/* here is the phone number design */
+
+input[type=tel]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+   
+
+}
+
+.form-class{
+
+    margin-top: 30px;
+}
+
+/* here is the password design */
+
+input[type=password]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+   
+
+}
+
+
+input[type=password]:focus{
+
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+    
+}
+
+
+.form-main{
+
+    padding-bottom: 50px;
+}
+
+/* here is my register button design */
+
+.btn-btn{
+
+    background-color: rgba(4, 177, 4, 0.788);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 50%;
+   
+
+}
+
+
+/* here is my divider button design */
+
+.divider{
+
+
+    display: flex;
+    align-items: center;
+}
+
+
+.divider::before,.divider::after{
+
+content: "";
+padding: 1px;
+background-color: lightgray;
+flex: 1;
+margin: 10px 3px;
+ 
+
+
+}
+
+.divider-hm{
+
+  background-color:white;  
+  padding: 8px 8px;
+  border-radius: 50%;
+  border: 1px solid lightblue;
+  
+
+}
+/* 
+social media button */
+
+.btn-socialone{
+
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin:10px;
+    border-radius: 10px;
+
+
+}
+
+.btn-socialtwo{
+
+
+    background-color: 	#1DA1F2;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin:10px;
+    border-radius: 10px;
+
+
+}
+
+.btn-socialthree{
+
+    background-color: 	#DB4A39;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin:10px;
+    border-radius: 10px;
+
+
+
+}
+
+/* here is for mobile responsive design */
+
+@media(max-width:1018px){
+
+.container-form{
+
+width: 100%;
+background-color: cadetblue;
+
+}
+
+.btn-socialone{
+
+   padding: 10px 20px;
+   margin: 5px;
+
+}
+
+.btn-socialtwo{
+
+
+    padding: 10px 20px;
+    margin: 5px;
+
+}
+
+.btn-socialthree{
+
+    padding: 10px 20px;
+    margin: 5px;
+
+
+}
+
+
+.container-form p{
+
+    padding: 20px;
+
+}
+
+.body{
+
+overflow-x:hidden ;
+
+
+}
+
+
+
+   
+  
+
+
+}
